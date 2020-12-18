@@ -1,0 +1,18 @@
+{
+  "name": "falabela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd app/ && npm start",
+    "back": "cd backend/ && npm run dev",
+    "start": "concurrently \"npm run front\" \"npm run back\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "reactjs-popup": "^1.5.0"
+  }
+}
